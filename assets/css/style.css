@@ -10,6 +10,10 @@
     padding-right: 9rem!important;
 }
 
+.navbar-toggler {
+    float: left;
+}
+
 /* .img-thumbnail {
     width: 500px;
     margin-top: 3rem;
