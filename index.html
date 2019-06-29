@@ -27,22 +27,27 @@
             <div class="collapse navbar-collapse mr-1 pr-5" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#work">
+                        <a class="nav-link" href="index.html" target="_self" title="Visit my most current work">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work" target="_self" title="Visit my most current work">
                             Work
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">
+                        <a class="nav-link" href="#about" title="A little ablout who I am">
                             About
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">
+                        <a class="nav-link" href="#contact" title="Let's talk about a project">
                             Contact
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="cv.html">
+                        <a class="nav-link" href="cv.html" title="Download my CV">
                             CV
                         </a>
                     </li>
@@ -52,16 +57,16 @@
     </nav>
 
     <!-- content -->
-    <div class="container-fluid" style="margin-top:110px">
+    <div class="container-fluid">
 
-        <!-- tittle -->
+        <!-- title -->
         <div class="row">
             <div class="col-sm-3"></div>
             <div class="col-sm-6">
-                <h1 class="text-center pt-4 pb-2">
-                    <marquee behavior="scroll" scrollamount="8" onmouseover="this.stop()" onmouseout="this.start()">
-                        GERARDO CAMBRONERO | <span class="text-muted">DESIGN NINJA</span>
-                    </marquee>
+                <h1 class="text-center pt-4 pb-4">
+                    <!-- <marquee behavior="scroll" scrollamount="8" onmouseover="this.stop()" onmouseout="this.start()"> -->
+                    GERARDO CAMBRONERO <span class="text-primary">DESIGN NINJA</span>
+                    <!-- </marquee> -->
                 </h1>
             </div>
         </div>
@@ -69,265 +74,270 @@
         <!-- tagline -->
         <div class="jumbotron jumbotron-fluid">
             <div class="row">
-                <div class="col-sm-3"></div>
-                <div class="col-sm-6">
-                    <h1 class="display-3">
-                        I connect people<br>to everyday-life products<br>through
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <h1>
+                        I connect people<br>to the products they love<br>through
                         stealthy design<br>and sharpen innovation
                     </h1>
                 </div>
             </div>
         </div>
-        
-        <div class="empty"></div>
 
         <!-- work -->
-        <div id="work" class="row">
-            <div class="col-sm-3"></div>
-            <div class="col-sm-6">
+        <div id="work">
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6">
                     <h1
-                    class="text-center border border-primary border-top-0 border-bottom border-right-0 border-left-0 border-5 pt-4 pb-4">
-                    WORK
-                </h1>
-                <br>
-                <br>
-            </div>
-        </div>
-        <br>
-
-        <!-- carousel -->
-        <div class="row">
-            <div class="col-sm-2"></div>
-            <div class="col-sm-8">
-
-                <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselIndicators" data-slide-to="0" class="active">
-                        </li>
-                        <li data-target="#carouselIndicators" data-slide-to="1">
-                        </li>
-                        <li data-target="#carouselIndicators" data-slide-to="2">
-                        </li>
-                    </ol>
-
-                    <div class="carousel-inner">
-
-                        <!-- frairMail -->
-                        <div class="carousel-item active">
-                            <img class="d-block w-100" src="./assets/images/heroShots/flareMail01.jpg" alt="Slide 01">
-                            <div class="carousel-caption d-none d-md-block">
-                                <a href="https://gcamb007.github.io/FlairMail/" target="_blank">
-                                    <h5>Flair Mail App</h5>
-                                </a>
-                                <p>Create a custom email signature</p>
-                            </div>
-                        </div>
-
-                        <!-- spaceX -->
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="./assets/images/heroShots/spacex01.jpg" alt="Slide 03">
-                            <div class="carousel-caption d-none d-md-block">
-                                <a href="https://gcamb007.github.io/Space-Travel-Schedule-App/" target="_blank">
-                                    <h5>SpaceX Flight Scheduling App</h5>
-                                </a>
-                                <p>Database application to keep track of vessel names and space flights</p>
-                            </div>
-                        </div>
-
-                        <!-- matrix -->
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="./assets/images/heroShots/matrix01.gif" alt="Slide 03">
-                            <div class="carousel-caption d-none d-md-block">
-                                <a href="https://gcamb007.github.io/jQ-Ninja/" target="_blank">
-                                    <h5>Matrix Game</h5>
-                                </a>
-                                <p>Combine strenghts to beat the Mr. Smith</p>
-                            </div>
-                        </div>
-
-                        <!-- sportsApi -->
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="./assets/images/heroShots/sportsApi01.jpg" alt="Slide 03">
-                            <div class="carousel-caption d-none d-md-block">
-                                <a href="https://gcamb007.github.io/API-app/" target="_blank">
-                                    <h5>Sports API</h5>
-                                </a>
-                                <p>Search gif images your favorite sport</p>
-                            </div>
-                        </div>
-
-                        <!-- marvel -->
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="./assets/images/heroShots/triviaGame01.jpg" alt="Slide 03">
-                            <div class="carousel-caption d-none d-md-block">
-                                <a href="https://gcamb007.github.io/TriviaGame/" target="_blank">
-                                    <h5>Marvel Trivia</h5>
-                                </a>
-                                <p>test your knowledge of the Marvel Cinamatic Universe</p>
-                            </div>
-                        </div>
-
-                        <!-- nodify -->
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="./assets/images/heroShots/nodify01.jpg" alt="Slide 03">
-                            <div class="carousel-caption d-none d-md-block">
-                                <a href="https://github.com/gcamb007/Nodify" target="_blank">
-                                    <h5>Nodify</h5>
-                                </a>
-                                <p>A Node app</p>
-                            </div>
-                        </div>
-
-                        <!-- bookTalks -->
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="./assets/images/heroShots/matrix01.gif" alt="Slide 03">
-                            <div class="carousel-caption d-none d-md-block">
-                                <a href="https://gcamb007.github.io/jQ-Ninja/" target="_blank">
-                                    <h5>Matrix Game</h5>
-                                </a>
-                                <p>Combine strenghts to beat the Mr. Smith</p>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <!-- controls -->
-                    <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+                        class="text-center border border-primary border-top-0 border-bottom border-right-0 border-left-0 border-5 pt-4 pb-4">
+                        WORK
+                    </h1>
+                    <br>
                 </div>
+            </div>
 
+            <!-- carousel -->
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+
+                    <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators pb-3 pt-3">
+                            <li data-target="#carouselIndicators" data-slide-to="0" class="active">
+                            </li>
+                            <li data-target="#carouselIndicators" data-slide-to="1">
+                            </li>
+                            <li data-target="#carouselIndicators" data-slide-to="2">
+                            </li>
+                            <li data-target="#carouselIndicators" data-slide-to="3">
+                            </li>
+                            <li data-target="#carouselIndicators" data-slide-to="4">
+                            </li>
+                            <li data-target="#carouselIndicators" data-slide-to="5">
+                            </li>
+                            <li data-target="#carouselIndicators" data-slide-to="6">
+                            </li>
+                        </ol>
+
+                        <div class="carousel-inner">
+
+                            <!-- spaceX -->
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="./assets/images/heroShots/spacex01.jpg" alt="Slide 01">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <a href="https://gcamb007.github.io/Space-Travel-Schedule-App/" target="_blank">
+                                        <h5>SpaceX Flight Scheduling App</h5>
+                                    </a>
+                                    <p>Database application to keep track of vessel names and space flights</p>
+                                </div>
+                            </div>
+
+                            <!-- frairMail -->
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="./assets/images/heroShots/flareMail01.jpg"
+                                    alt="Slide 02">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <a href="https://gcamb007.github.io/FlairMail/" target="_blank">
+                                        <h5>Flair Mail App</h5>
+                                    </a>
+                                    <p>Create a custom email signature</p>
+                                </div>
+                            </div>
+
+                            <!-- matrix -->
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="./assets/images/heroShots/matrix01.gif" alt="Slide 03">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <a href="https://gcamb007.github.io/jQ-Ninja/" target="_blank">
+                                        <h5>Matrix Game</h5>
+                                    </a>
+                                    <p>Combine strenghts to beat the Mr. Smith</p>
+                                </div>
+                            </div>
+
+                            <!-- sportsApi -->
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="./assets/images/heroShots/sportsApi01.jpg"
+                                    alt="Slide 04">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <a href="https://gcamb007.github.io/API-app/" target="_blank">
+                                        <h5>Sports API</h5>
+                                    </a>
+                                    <p>Search gif images your favorite sport</p>
+                                </div>
+                            </div>
+
+                            <!-- marvel -->
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="./assets/images/heroShots/triviaGame01.jpg"
+                                    alt="Slide 05">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <a href="https://gcamb007.github.io/TriviaGame/" target="_blank">
+                                        <h5>Marvel Trivia</h5>
+                                    </a>
+                                    <p>Test your knowledge of the Marvel Cinamatic Universe</p>
+                                </div>
+                            </div>
+
+                            <!-- nodify -->
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="./assets/images/heroShots/nodify01.jpg" alt="Slide 06">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <a href="https://github.com/gcamb007/Nodify" target="_blank">
+                                        <h5>Nodify</h5>
+                                    </a>
+                                    <p>Liri Bot - LIRI is a Language Interpretation and Recognition Interface.<br> LIRI
+                                        will be a command line node app that takes in parameters and gives you back
+                                        data.</p>
+                                </div>
+                            </div>
+
+                            <!-- bookTalks -->
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="./assets/images/heroShots/bookTalks01.png"
+                                    alt="Slide 07">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <a href="https://booktalks.herokuapp.com/signin" target="_blank">
+                                        <h5>Book Talks</h5>
+                                    </a>
+                                    <p>The first of it's kind online book club - A project in the making</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- controls -->
+                        <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 
-    <!-- about -->
-    <div id="about" class="row">
-        <div class="col-sm-3"></div>
-        <div class="col-sm-6 p-5">
-            <h1
-                class="text-center border border-primary border-top-0 border-bottom border-right-0 border-left-0 border-5 pt-4 pb-4">
-                ABOUT
-            </h1>
-            <br>
-            <br>
-            <p class="text-justify">
-                Hello, my name is Gerardo Cambronero, I am an Industrial Designer and User Experience (UX)
-                consultant
-                dedicated to the implementation of beautiful solutions to ill-design issues. My focus is to
-                assist
-                my
-                clients through the design development process of new ideas and technologies, from initial
-                concept
-                to
-                final prototype testing and project delivery. I have created work in fields such as consumer
-                goods,
-                trade show architecture, oil & gas, clean renewable energy, transportation design,
-                futuristic
-                habitat
-                systems, and research and development of new and exciting technologies.
-                <br><br>
-                My design ideology emerges out of a careful analysis of how contemporary life constantly
-                changes
-                and
-                the need for better infrastructure systems to sustain such demanding changes. I provide my
-                clients
-                with
-                innovative, cost-effective, manufacturable, and marketable Industrial Design and User
-                Experience
-                solutions to provide fabrication-ready prototypes.
-                <br><br>
-                My design development is of the highest quality and I effectively manage all changes to
-                projects
-                without unduly affecting the stated objectives, benefits, and overall intent. I implement
-                design
-                research, visual conceptualization, Human-Factors, and Human-Centered Design principles to
-                enhance
-                the
-                user experience of existing and emerging technologies. I also provide graphic design
-                services by
-                creating collateral art material, photography, and interface design for web applications and
-                website
-                design.
-            </p>
-        </div>
-    </div>
-
-    <!-- contact -->
-    <div id="contact" class="container-fluid" style="margin-top:110px">
-
-        <div class="row">
+        <!-- about -->
+        <div id="about" class="row">
             <div class="col-sm-3"></div>
             <div class="col-sm-6">
                 <h1
                     class="text-center border border-primary border-top-0 border-bottom border-right-0 border-left-0 border-5 pt-4 pb-4">
-                    CONTACT
+                    ABOUT
                 </h1>
-            </div>
-        </div>
-
-        <div class="row p-3 pt-5 pb-5">
-            <div class="col-sm-3"></div>
-            <div class="col-sm-6">
-
-                <form action="/action_page.php">
-
-                    <div class="form-group">
-                        <label for="name">Name:</label>
-                        <input type="text" name="Name" class="form-control border-primary" id="Name">
-                    </div>
-                    <div class="form-group">
-                        <label for="city">City:</label>
-                        <input type="text" name="City" class="form-control border-success" id="City">
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email address:</label>
-                        <input type="email" class="form-control border-danger" id="email">
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message:</label>
-                        <textarea name="Message" class="form-control border-warning" rows="5" cols="60"
-                            id="Message"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-default btn-primary">Submit</button>
-                </form>
-
-            </div>
-        </div>
-
-        <!-- footer -->
-        <div
-            class="row w-100% p-2 footer border border-primary border-bottom-0 border-top-4 border-right-0 border-left-0 pb-4">
-            <div class=" col-md-3"></div>
-            <div class="col-md-6">
-                <p>
-                    <span class="copyright p-2 text-reset float-md-right text-right">Copyright &copy; Design
-                        Ninja |
-                        Gerardo
-                        Cambronero <br> All Rights
-                        Reserved | Web Design by<a href="http://www.desgnnja.com" target="_blank" class="">
-                            desgnnja.com</span></a>
+                <br>
+                <p class="text-justify">
+                    Hello, my name is Gerardo Cambronero, I am an Industrial Designer and User Experience (UX)
+                    consultant
+                    dedicated to the implementation of beautiful solutions to ill-design issues. My focus is to
+                    assist
+                    my
+                    clients through the design development process of new ideas and technologies, from initial
+                    concept
+                    to
+                    final prototype testing and project delivery. I have created work in fields such as consumer
+                    goods,
+                    trade show architecture, oil & gas, clean renewable energy, transportation design,
+                    futuristic
+                    habitat
+                    systems, and research and development of new and exciting technologies.
+                    <br><br>
+                    My design ideology emerges out of a careful analysis of how contemporary life constantly
+                    changes
+                    and
+                    the need for better infrastructure systems to sustain such demanding changes. I provide my
+                    clients
+                    with
+                    innovative, cost-effective, manufacturable, and marketable Industrial Design and User
+                    Experience
+                    solutions to provide fabrication-ready prototypes.
+                    <br><br>
+                    My design development is of the highest quality and I effectively manage all changes to
+                    projects
+                    without unduly affecting the stated objectives, benefits, and overall intent. I implement
+                    design
+                    research, visual conceptualization, Human-Factors, and Human-Centered Design principles to
+                    enhance
+                    the
+                    user experience of existing and emerging technologies. I also provide graphic design
+                    services by
+                    creating collateral art material, photography, and interface design for web applications and
+                    website
+                    design.
                 </p>
             </div>
         </div>
 
+        <div class="spacer"></div>
 
-    </div>
+        <!-- contact -->
+        <div id="contact">
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6">
+                    <h1
+                        class="text-center border border-primary border-top-0 border-bottom border-right-0 border-left-0 border-5 pt-4 pb-4">
+                        CONTACT
+                    </h1>
+                    <br>
+                    <!-- <form action="/action_page.php"> -->
+                    <form action="/action_page.php">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" name="Name" class="form-control border-primary" id="Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="city">City:</label>
+                            <input type="text" name="City" class="form-control border-success" id="City">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email address:</label>
+                            <input type="email" name="Email" class="form-control border-danger" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea name="Message" class="form-control border-warning" rows="8" cols="60"
+                                id="Message"></textarea>
+                        </div>
+                        <br>
+                        <button type="submit" class="btn btn-default btn-primary">Send me a message!</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="spacer"></div>
+
+            <!-- footer -->
+            <div
+                class="row w-100% p-2 footer border border-primary border-bottom-0 border-top-4 border-right-0 border-left-0 pb-1">
+                <div class=" col-md-2"></div>
+                <div class="col-md-8">
+                    <p>
+                        <span class="copyright p-2 text-reset float-md-right text-right">Copyright &copy; Design
+                            Ninja |
+                            Gerardo
+                            Cambronero <br> All Rights
+                            Reserved | Web Design by<a href="http://www.desgnnja.com" target="_blank" class="">
+                                desgnnja.com</span></a>
+                    </p>
+                </div>
+            </div>
 
 
-    <!-- scripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
+
+            <!-- scripts -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                crossorigin="anonymous">
+            </script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                crossorigin="anonymous">
+            </script>
 
 </body>
 
